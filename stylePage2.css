@@ -1,0 +1,259 @@
+
+body{
+    background-color: #D4E3FC;
+}
+.header h1{
+    text-align: left;
+    font-family:Georgia, serif;
+    padding: 20px 0;
+    background-color: rgb(69, 88, 153);
+    padding-bottom: 25px;
+    margin-right: 10%;
+    padding-right: 5%;
+    color: white;
+    padding-left: 30px;
+    border: solid black ;
+    border-width: 2px;
+    max-width: auto;
+    max-height: auto;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+
+}
+
+.buttons{
+    display: flex;
+    gap: 50px;
+    margin-right: 40px;
+}
+
+.button{
+color:rgba(255, 255, 255, 0.822);
+background-color: rgb(89, 115, 189);
+padding: 15px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+flex-grow: 0;
+width: auto;
+
+}
+
+.button:hover{
+    background-color: rgb(116, 175, 199);
+    
+    }
+    
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 20px;
+}
+.content p1{
+    max-width: 50%;
+    font-size: 1.4vw;
+    text-align: justify;
+}
+
+.contentTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 20px;
+}
+
+.contentTwo p1{
+    max-width: 60%;
+    font-size: 1.4vw;
+    text-align: justify;
+
+}
+.contentTwo p2{
+    max-width: 30%;
+    font-size: 1.4vw;
+    text-align: justify;
+
+}
+.contentTwo img {
+    display: block; /* Ensures the images are displayed as block-level elements */
+    width: 100%;    /* Makes the images take full width of their container */
+    margin-bottom: 20px; /* Adds space between images */
+}
+
+.csInAction h1{
+    margin-left: 30px;
+    font-family:Georgia, serif;
+}
+
+.contentThree{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 20px;
+}
+
+.contentThree p1{
+    max-width: 35%;
+    font-size: 1.6vw;
+    text-align: justify;
+}
+
+.contentThree p2{
+    max-width: 30%;
+    font-size: 1.6vw;
+    text-align: justify;
+}
+
+
+.computingD h1{
+    margin-left: 30px;
+    font-family:Georgia, serif;
+}
+
+.contentFour{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 20px;
+}
+
+.contentFour p1{
+    max-width: 50%;
+    font-size: 1.4vw;
+    text-align: justify;
+    border-bottom-style: solid;
+    padding-bottom: 2%;
+}
+
+.contentFour p2{
+    max-width: 50%;
+    font-size: 1.6vw;
+    border-style: solid;
+    text-align: justify;
+}
+
+
+.header2 h1{
+    text-align: left;
+    font-family:Georgia, serif;
+    padding: 20px 0;
+    background-color: rgb(69, 88, 153);
+    padding-bottom: 25px;
+    margin-right: 42%;
+    padding-right: 5%;
+    color: white;
+    padding-left: 30px;
+    border: solid black ;
+    border-width: 2px;
+    max-width: auto;
+    max-height: auto;
+}
+
+.dataInfo h1{
+    margin-left: 30px;
+    font-family:Georgia, serif;
+}
+
+.contentFive{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 20px;
+}
+
+.contentFive p1{
+    max-width: auto;
+    font-size: 1.4vw;
+    text-align: justify;
+}
+
+.infoSys h1{
+    margin-left: 30px;
+    font-family:Georgia, serif;
+}
+
+.content6{
+    margin-bottom: 2%;
+}
+
+.content6 p1{
+    width: 20%;
+    margin-top: 0.2%;
+    font-size: 1.30vw;
+    float: left;
+    border-right-style: solid;
+    border-width: 2px;
+    margin-left: 6%;
+    padding-right: 25px;
+    text-align: justify;
+    
+}
+
+.content6 h4{
+    margin-top: 4%;
+}
+
+.content6 p2{
+    width: 20%;
+    margin-top: 0.2%;
+    font-size: 1.30vw;
+    float: left;
+    border-right-style: solid;
+    border-width: 2px;
+    margin-left: 20px;
+    padding-right: 25px;
+    text-align: justify;
+}
+
+.content6 p3{
+    width: 20%;
+    margin-top: 0.2%;
+    font-size: 1.30vw;
+    float: left;
+    border-right-style: solid;
+    border-width: 2px;
+    margin-left: 20px;
+    padding-right: 25px;
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+.content6 p4{
+    width: 20%;
+    margin-top: 0.2%;
+    font-size: 1.30vw;
+    float: left;
+    margin-left: 20px;
+    text-align: justify;
+    margin-bottom: 2%;
+
+}
+
+.supppSys{
+    margin-left: 30px;
+    font-family:Georgia, serif;
+}
+.refe{
+    margin-left: 30px;
+    font-family:Georgia, serif;
+}
+
+.references{
+    font-size: 0.9vw;
+    margin-left: 1.5%;
+    line-height: 1.4;
+}
